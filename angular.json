@@ -100,8 +100,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/App-Pokedex/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ac96d34c-792b-4d3d-a310-7c5d4ef39763"
   }
 }
